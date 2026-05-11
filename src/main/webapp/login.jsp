@@ -124,18 +124,22 @@
             <i class="fa fa-sign-in-alt"></i> Login
         </button>
 
-    </form>
-    <div class="text-end mt-2">
-        <a href="forgotPassword.jsp"
-           style="text-decoration:none;">
-            Forgot Password?
-        </a>
+        <div class="text-end mt-3">
+
+            <a href="forgotPassword.jsp"
+               class="btn btn-outline-danger rounded-pill px-3">
+
+                <i class="fa fa-lock"></i>
+                Forgot Password?
+
+            </a>
+
     </div>
     <div class="text-center mt-4">
         Don't have an account?
         <a href="register.jsp" class="register-link">Register</a>
     </div>
-
+    </form>
 </div>
 
 </body>
