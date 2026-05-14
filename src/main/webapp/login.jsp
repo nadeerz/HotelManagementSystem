@@ -14,14 +14,28 @@
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <style>
-        body {
-            background: linear-gradient(135deg, #1e1e2f, #2c3e50);
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: Arial, sans-serif;
-        }
+
+            body{
+
+                background-image:
+                        linear-gradient(rgba(0,0,0,0.5),
+                        rgba(0,0,0,0.5)),
+
+                        url('https://images.unsplash.com/photo-1519167758481-83f550bb49b3');
+
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+
+                min-height:100vh;
+
+                display:flex;
+                justify-content:center;
+                align-items:center;
+
+                font-family:Arial,sans-serif;
+            }
+
 
         .login-card {
             width: 100%;
@@ -33,11 +47,7 @@
             animation: fadeIn 0.8s ease;
         }
 
-        .logo {
-            font-size: 55px;
-            color: #e91e63;
-            margin-bottom: 10px;
-        }
+
 
         .title {
             font-weight: bold;
@@ -92,9 +102,7 @@
 <div class="login-card">
 
     <div class="text-center">
-        <div class="logo">
-            <i class="fa-solid fa-heart"></i>
-        </div>
+
 
         <div class="title">Wedding Hotel System</div>
         <div class="subtitle">Login to continue</div>
